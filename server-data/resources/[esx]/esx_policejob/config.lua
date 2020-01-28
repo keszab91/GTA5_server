@@ -143,6 +143,22 @@ Config.AuthorizedWeapons = {
 	}
 }
 
+
+
+--[[
+
+AuthorizedVehicles = {
+      { name = 'police',  label = 'Véhicule de patrouille 1' },
+      { name = 'police2', label = 'Véhicule de patrouille 2' },
+      { name = 'police3', label = 'Véhicule de patrouille 3' },
+      { name = 'police4', label = 'Véhicule civil' },
+      { name = 'policeb', label = 'Moto' },
+      { name = 'policet', label = 'Van de transport' },
+    },
+
+]]
+
+
 Config.AuthorizedVehicles = {
 	Shared = {
 		{model = 'police', label = 'Police Cruiser', price = 10000},
