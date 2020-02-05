@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <h2>Custom NUI menu</h2>
+        <p>The menu is under construction.</p>
+        <nav>
+            <ul>
+                <li><a class="showSingle" target="1">Chat message</a></li>
+                <li><a class="showSingle" target="2">News</a></li>
+                <li><a class="showSingle" target="3">Contact</a></li>
+                <li><a class="showSingle" target="4">About</a></li>
+            </ul>
+        </nav>
+        <section>
+
+            <div class="menu-content" id="div1">
+                <form id="form">
+                    <input placeholder="Type here" id="input"></input>
+                    <br>
+                    <button id="submit" type="submit">Submit</button>
+                    <button id="close">Close</button>
+                </form>
+            </div>
+
+            <div class="menu-content" id="div2">
+                News
+                <img src="const.png" class="const-image">
+            </div>
+
+            <div class="menu-content" id="div3">
+                Contact
+                <img src="const.png" class="const-image">
+            </div>
+
+            <div class="menu-content" id="div4">
+                About
+                <img src="const.png" class="const-image">
+            </div>
+
+        </section>
+
+    </div>
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+
+</html>

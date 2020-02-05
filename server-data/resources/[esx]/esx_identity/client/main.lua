@@ -97,8 +97,6 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
-
 		if guiEnabled then
 			DisableControlAction(0, 1,   true) -- LookLeftRight
 			DisableControlAction(0, 2,   true) -- LookUpDown
@@ -119,9 +117,8 @@ Citizen.CreateThread(function()
 			DisableControlAction(0, 143, true) -- disable melee
 			DisableControlAction(0, 75,  true) -- disable exit vehicle
 			DisableControlAction(27, 75, true) -- disable exit vehicle
-		else
-			Citizen.Wait(500)
 		end
+		Citizen.Wait(10)
 	end
 end)
 

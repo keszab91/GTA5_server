@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Open+Sans&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.welcome_text {
+    color: white;
+    background: #000;
+    display: block;
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+}
+.welcome_text h1{
+font-family: 'Bangers', cursive;
+margin: 10px;
+}
+
+.welcome_text h2{
+font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+text-shadow: 0 0 10px #fff;
+color: #000;
+}
+
+.loader {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    widows: 100vh;
+    height: 100vh;
+}
+
+.fa-first {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    border: 5px solid transparent;
+    border-top: 5px solid #6600CC;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.66s infinite linear;
+}
+
+.fa-second {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-right: 5px inset #FFCC00;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.58s infinite linear;
+}
+
+.fa-third {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-bottom: 5px inset #CC0000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.66s infinite linear;
+}
+
+.fa-fourth {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-left: 5px inset #00FF00;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.58s infinite linear;
+}
+
+.fa-first-in {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top: 5px solid rgb(156, 69, 228);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.68s infinite linear reverse;
+    animation-delay: 0.3s;
+}
+
+.fa-second-in {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-right: 5px inset rgb(255, 0, 0);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.56s infinite reverse linear;
+    animation-delay: 0.3s;
+}
+
+.fa-third-in {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-bottom: 5px inset rgb(255, 217, 0);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.68s infinite reverse linear;
+    animation-delay: 0.3s;
+}
+
+.fa-fourth-in {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-left: 5px inset rgb(73, 206, 151);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    animation: spin 1.56s infinite reverse linear;
+    animation-delay: 0.3s;
+}
+
+.third {
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    animation: spin 1.4s infinite linear;
+}
+
+.third-01 {
+    animation: spin 1.48s infinite linear;
+}
+
+.textDiv {
+    width: 100px;
+    height: 100px;
+    color: white;
+    animation: none;
+    border: none;
+    border: 1px solid #fff;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    animation: none;
+    border: none;
+    display: block;
+}
+
+@keyframes spin {
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+    }
+}

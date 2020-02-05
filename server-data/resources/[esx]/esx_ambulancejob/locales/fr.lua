@@ -1,11 +1,17 @@
 Locales['fr'] = {
   -- Cloakroom
-  ['cloakroom'] = 'vestiaire',
-  ['ems_clothes_civil'] = 'tenue Civil',
-  ['ems_clothes_ems'] = 'tenue Ambulancier',
+  ['cloakroom'] = 'Vestiaire',
+  ['ems_clothes_civil'] = 'Tenue Civil',
+  ['ems_clothes_ems'] = 'Tenue Ambulancier',
   -- Vehicles
   ['ambulance'] = 'ambulance',
   ['helicopter_prompt'] = 'appuyez sur ~INPUT_CONTEXT~ pour accéder aux ~y~Actions de l\'hélicoptère~s~.',
+  ['helicopter_buy'] = 'magasin hélicoptère',
+  ['helicopter_garage'] = 'ouvrir le garage',
+  ['helicopter_store'] = 'garer l\'hélicoptère dans le garage',
+  ['helicopter_garage_title'] = 'garage hélicoptère',
+  ['helicopter_title'] = 'actions hélicoptère',
+  ['helicopter_notauthorized'] = 'vous n\'êtes pas autorisé à acheter un hélicoptère.',
   ['garage_prompt'] = 'appuyez sur ~INPUT_CONTEXT~ pour accéder aux ~y~Actions des véhciules~s~.',
   ['garage_title'] = 'actions véhicules',
   ['garage_stored'] = 'rangé',
@@ -24,25 +30,26 @@ Locales['fr'] = {
   ['shop_item'] = '$%s',
   ['vehicleshop_title'] = 'magasin véhicule',
   ['vehicleshop_confirm'] = 'voulez-vous acheter ce véhicule?',
-  ['vehicleshop_bought'] = 'vous avez acheté ~y~%s~s~ pour ~g~$%s~s~',
+  ['vehicleshop_bought'] = 'vous avez acheté ~y~%s~s~ pour ~r~$%s~s~',
   ['vehicleshop_money'] = 'vous ne pouvez pas acheter ce véhicule',
   ['vehicleshop_awaiting_model'] = 'le véhicule est actuellement en ~g~PRÉPARATION~s~ veuillez patienter',
   ['confirm_no'] = 'non',
   ['confirm_yes'] = 'oui',
   -- Action Menu
+  ['hospital'] = 'hôpital',
   ['revive_inprogress'] = 'réanimation en cours',
   ['revive_complete'] = 'vous avez réanimé ~y~%s~s~',
   ['revive_complete_award'] = 'vous avez réanimé ~y~%s~s~, ~g~$%s~s~',
-  ['revive_fail_offline'] = 'that player is no longer online',
   ['heal_inprogress'] = 'vous soignez...',
   ['heal_complete'] = 'vous avez soigné ~y~%s~s~',
   ['no_players'] = 'aucun joueur à proximité',
+  ['no_vehicles'] = 'aucun véhicule à proximité',
   ['player_not_unconscious'] = 'n\'est pas inconscient',
   ['player_not_conscious'] = 'Cette personne est inconsciente!',
   -- Boss Menu
   ['boss_actions'] = 'action Patron',
   -- Misc
-  ['invalid_amount'] = '~r~montant invalide~s~',
+  ['invalid_amount'] = '~r~montant invalide',
   ['actions_prompt'] = 'press ~INPUT_CONTEXT~ access the ~y~Ambulance Actions~s~.',
   ['deposit_amount'] = 'montant du dépôt',
   ['money_withdraw'] = 'montant du retrait',
@@ -70,6 +77,7 @@ Locales['fr'] = {
   ['respawn_bleedout_fine_msg'] = 'vous avez payé ~r~$%s~s~ pour être réanimer.',
   ['distress_send'] = 'appuyez sur [~b~G~s~] pour envoyer un signal de détresse',
   ['distress_sent'] = 'un signal a été envoyé à toutes les unités disponibles!',
+  ['distress_message'] = 'interventtion requise: citoyen inconscient!',
   ['combatlog_message'] = 'vous avez été réanimé de force car vous avez quitté le serveur.',
   -- Revive
   ['revive_help'] = 'relancer un joueur',
@@ -79,7 +87,4 @@ Locales['fr'] = {
   ['not_enough_medikit'] = 'vous n\'avez pas de ~b~kit de soin~s~.',
   ['not_enough_bandage'] = 'vous n\'avez pas de ~b~bandage~s~.',
   ['healed'] = 'vous avez été soigné.',
-  -- Blips
-  ['blip_hospital'] = 'hôpital',
-  ['blip_dead'] = 'unconscious player',
 }

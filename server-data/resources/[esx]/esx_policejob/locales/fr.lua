@@ -108,6 +108,7 @@ Locales['fr'] = {
   ['sex'] = 'sexe: %s',
   ['dob'] = 'DOB: %s',
   ['height'] = 'taille: %s',
+  ['id'] = 'ID: %s',
   ['bac'] = 'BAC: %s',
   ['unknown'] = 'inconnu',
   ['male'] = 'homme',
